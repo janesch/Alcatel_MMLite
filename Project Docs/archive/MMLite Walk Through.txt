@@ -1,0 +1,19 @@
+MM Lite Walk through 
+28th Feb 2012
+
+This s an internal approval meeting
+
+not all events to be handled by netcool
+	24 service affecting alarms handled in the first phase
+
+
+Alarms from cell stack are already dealt with so we expect no changes to mttrapd rules
+
+All alarms not in the alarm list will be stored in netool - these may or may not be enriched and NOT seen in std views
+	Care to be taken with service/resilience affecting and action required flags
+	Care with IPT events that are going through MMLite
+
+
+Circee 	Performance monitoring
+	is this an oracle db? 
+	if so an something be done with STATS pack
